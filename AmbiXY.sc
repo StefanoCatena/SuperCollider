@@ -42,7 +42,7 @@ AmbiXY
 
 			}).add; //added reverb
 
-			//"BINAURALE!!".postln;
+			//"STEREO!!".postln;
 			}
 			{type == "4ch"}{SynthDef(\spat,
 				{ |in, amp = 1, x = 1, y = 1, revMix, damp = 0.5, room = 100|
